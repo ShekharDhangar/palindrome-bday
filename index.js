@@ -226,6 +226,9 @@ function clickHandler(event) {
       message = "Yay! Your Birthday is palindrome 🎉🎉";
       showOutput(message);
     }
+  }else{
+    message = "Please enter your Birth Date";
+    showOutput(message)
   }
 }
 
